@@ -5,6 +5,7 @@ def turn_count(board)
       puts "position"
     else
     end
+  end
 end
 
 def current_player
