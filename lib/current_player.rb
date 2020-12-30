@@ -2,7 +2,7 @@
 def turn_count(board)
   turns = 0 #sets initial turn value
   board.each do |position|
-    position == "O" || position == "X" ? turns += 1 :#counts number of turns that have been taken
+    position == "O" || position == "X" ? turns += 1 : nil#counts number of turns that have been taken
   turns #returns the value of turns
 end
 
