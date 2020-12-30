@@ -12,6 +12,8 @@ def turn_count(board)
 end
 #turn_count(board1)
 
-def current_player
-  
+def current_player(board)
+  odd_or_even = turn_count(board) % 2
+  odd_or_even == 1 ? player = "X" : player = "O"
+  player
 end
