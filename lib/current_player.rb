@@ -8,6 +8,7 @@ def turn_count(board)
     else
     end
   end
+  turns
 end
 #turn_count(board1)
 
