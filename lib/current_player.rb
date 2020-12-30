@@ -1,5 +1,5 @@
 
-#board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 def turn_count(board)
   turns = 0
   board.each do |position|
@@ -18,3 +18,4 @@ def current_player(board)
   odd_or_even == 1 ? player = "X" : player = "O"
   player
 end
+current_player(board1)
