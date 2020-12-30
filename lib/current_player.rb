@@ -5,7 +5,7 @@ def turn_count(board)
     turns = 0
     if position == "O" || position == "X"
       turns += 1
-      puts "turns"
+      puts "#{turns}"
     else
     end
   end
