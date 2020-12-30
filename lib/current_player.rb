@@ -5,7 +5,6 @@ def turn_count(board)
   board.each do |position|
     if position == "O" || position == "X"
       turns += 1
-      puts "#{turns}"
     else
     end
   end
