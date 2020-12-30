@@ -16,6 +16,7 @@ def current_player(board)
   odd_or_even = turn_count(board) % 2
   puts "#{odd_or_even}"
   odd_or_even == 1 ? player = "X" : player = "O"
+  puts "#{player}"
   player
 end
 current_player(board1)
